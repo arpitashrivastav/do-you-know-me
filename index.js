@@ -6,22 +6,35 @@ var score = 0;
 var highScores = [
   {
     name: "Arpita",
-    score: 3,
+    score: 5,
+    name: "Abhishek",
+    score: 4
   }
 ]
 
 // array of objects
-var questions = [{
-  question: "What do I like, tea or coffee? ",
-  answer: "coffee"
-}, {
-  question: "Which city do I live in? ",
-  answer: "Mumbai"
-},
-{
-  question: "Currently I am studying for which degree? ",
-  answer: "Physiotherapy"
-}];
+var questions = [
+  {
+    question: "What do I like, tea or coffee? ",
+    answer: "coffee"
+  },
+  {
+    question: "Which city do I live in? ",
+    answer: "Mumbai"
+  },
+  {
+    question: "Currently I am studying for which degree? ",
+    answer: "Physiotherapy"
+  },
+  {
+    question: "Which is my favourite brand?",
+    answer: "Zara"
+  },
+  {
+    question: "Which is my favourite place?",
+    answer: "Mumbai"
+  }
+];
 
 function welcome() {
  var userName = readlineSync.question("What's your name? ");
